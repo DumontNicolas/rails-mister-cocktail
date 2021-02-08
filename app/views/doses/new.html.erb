@@ -1,0 +1,8 @@
+<h1>Create your Dose!</h1>
+
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.input :description %>
+  <%= f.association :ingredient, collection: Ingredient.all %>
+  <%= f.association :cocktail, collection: Cocktail.all %>
+  <%= f.submit %>
+<% end %>
