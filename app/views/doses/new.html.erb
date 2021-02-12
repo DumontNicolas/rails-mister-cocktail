@@ -6,3 +6,5 @@
   <%= f.association :cocktail, collection: Cocktail.all %>
   <%= f.submit %>
 <% end %>
+
+<%= link_to "Cancel", cocktail_path(@cocktail), class:"btn btn-dark rounded" %>
