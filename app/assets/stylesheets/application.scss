@@ -15,3 +15,20 @@
 body {
   background: linear-gradient(115deg, #d0e8f2,#79a3b1,#456268)
 }
+
+div {
+  margin: 8px;
+}
+
+.index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 200px;
+}
