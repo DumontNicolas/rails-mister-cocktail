@@ -7,6 +7,7 @@ ruby '2.6.6'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use postgresql as the database for Active Record
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
 
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
